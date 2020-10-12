@@ -1,0 +1,48 @@
+const Task = require('../resources/tasks/task.model');
+
+const DB = [];
+
+DB.push(new Task(), new Task(), new Task());
+
+const getAll = async boardId => DB.filter(item => item.boardId === boardId);
+
+const get = async (boardId, taskId) =>
+  DB.filter(item => item.boardId === boardId && item.id === taskId)[0];
+
+const create = async task => {
+  DB.push(task);
+  return task;
+};
+
+const update = async (boardId, task) => {
+  const id = task.id;
+  const oldTask = DB.filter(item => item.id === id && item.boardId === boardId);
+  const idx = DB.indexOf(oldTask[0]);
+  DB[idx] = task;
+  return task;
+};
+
+const del = async (boardId, taskId) => {
+  const taskToDelete = DB.filter(
+    item => item.boardId === boardId && item.id === taskId
+  );
+  const idx = DB.indexOf(taskToDelete[0]);
+  DB.splice(idx, 1);
+  return DB.slice(0);
+};
+
+const delBoard = boardId =>
+  DB.forEach(item => {
+    if (item.boardId === boardId) {
+      item.boardId = null;
+    }
+  });
+
+const delUser = userId =>
+  DB.forEach(item => {
+    if (item.userId === userId) {
+      item.userId = null;
+    }
+  });
+
+module.exports = { getAll, get, create, update, del, delBoard, delUser };
