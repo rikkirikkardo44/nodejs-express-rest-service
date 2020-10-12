@@ -31,12 +31,13 @@ const del = async (boardId, taskId) => {
   return DB.slice(0);
 };
 
-const delBoard = boardId =>
-  DB.forEach(item => {
-    if (item.boardId === boardId) {
-      item.boardId = null;
-    }
+const delBoard = boardId => {
+  const tasksToDelete = DB.filter(task => task.boardId === boardId);
+  tasksToDelete.forEach(task => {
+    const idx = DB.indexOf(task);
+    DB.splice(idx, 1);
   });
+};
 
 const delUser = userId =>
   DB.forEach(item => {

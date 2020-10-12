@@ -2,7 +2,15 @@ const boardsDb = require('../../common/inMemoryDbBoards');
 
 const getAll = async () => boardsDb.getAll();
 
-const get = async id => boardsDb.get(id);
+const get = async id => {
+  const board = await boardsDb.get(id);
+
+  if (!board) {
+    throw new Error(`The board with id: ${id} was not found`);
+  }
+
+  return board;
+};
 
 const create = async board => boardsDb.create(board);
 
