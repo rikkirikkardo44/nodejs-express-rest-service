@@ -20,14 +20,26 @@ app.use('/doc', swaggerUI.serve, swaggerUI.setup(swaggerDocument));
 //   throw new Error('Oops!');
 // });
 
+// app.use('*', () => {
+//   setTimeout(() => {
+//     throw new Error('Oops!');
+//   }, 1000);
+// });
+
+// app.use('*', () => {
+//   setTimeout(() => {
+//     Promise.reject(new Error('Oops!'));
+//   }, 1000);
+// });
+
 process.on('uncaughtException', err => {
-  logger.error(`Uncaught exception: ${err.name} ${err.message}`);
+  logger.error(`Uncaught exception ${err.name}: ${err.message}`);
   // eslint-disable-next-line no-process-exit
   process.exit(1);
 });
 
 process.on('unhandledRejection', reason => {
-  logger.error(`Unhandled Rejection: ${reason.message}`);
+  logger.error(`Unhandled rejection detected: ${reason.message}`);
   // eslint-disable-next-line no-process-exit
   process.exit(1);
 });
