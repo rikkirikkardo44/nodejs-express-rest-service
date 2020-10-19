@@ -1,4 +1,5 @@
-const User = require('../resources/users/user.model');
+const User = require('../../resources/users/user.model');
+const RestError = require('../error/RestError');
 
 const DB = [];
 
@@ -17,6 +18,10 @@ const update = async user => {
   const id = user.id;
   const oldUser = DB.filter(item => item.id === id);
   const idx = DB.indexOf(oldUser[0]);
+  if (idx < 0) {
+    const error = new RestError(404, `Cant update user with ${id}`);
+    throw error;
+  }
   DB[idx] = user;
   return user;
 };
@@ -24,6 +29,10 @@ const update = async user => {
 const del = async id => {
   const userToDelete = DB.filter(item => item.id === id);
   const idx = DB.indexOf(userToDelete[0]);
+  if (idx < 0) {
+    const error = new RestError(404, `Cant delete user with ${id}`);
+    throw error;
+  }
   DB.splice(idx, 1);
   return DB.slice(0);
 };

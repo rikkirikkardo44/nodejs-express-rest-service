@@ -1,4 +1,5 @@
-const Task = require('../resources/tasks/task.model');
+const Task = require('../../resources/tasks/task.model');
+const RestError = require('../error/RestError');
 
 const DB = [];
 
@@ -18,6 +19,13 @@ const update = async (boardId, task) => {
   const id = task.id;
   const oldTask = DB.filter(item => item.id === id && item.boardId === boardId);
   const idx = DB.indexOf(oldTask[0]);
+  if (idx < 0) {
+    const error = new RestError(
+      404,
+      `Cant update task with boardID: ${boardId} taskId: ${task.id}`
+    );
+    throw error;
+  }
   DB[idx] = task;
   return task;
 };
@@ -27,6 +35,13 @@ const del = async (boardId, taskId) => {
     item => item.boardId === boardId && item.id === taskId
   );
   const idx = DB.indexOf(taskToDelete[0]);
+  if (idx < 0) {
+    const error = new RestError(
+      404,
+      `Cant delete task with boardID: ${boardId} taskId: ${taskId}`
+    );
+    throw error;
+  }
   DB.splice(idx, 1);
   return DB.slice(0);
 };

@@ -1,4 +1,4 @@
-const tasksDb = require('../../common/inMemoryDbTasks');
+const tasksDb = require('../../common/DB/inMemoryDbTasks');
 
 const getAll = async boardId => tasksDb.getAll(boardId);
 
