@@ -13,22 +13,18 @@ router.route('/').get(
 
 router.route('/:id').get(
   asyncHandleError(async (req, res) => {
-    try {
-      const board = await boardService.get(req.params.id);
-      res.json(Board.toResponse(board));
-    } catch (e) {
-      const error = new RestError(404, e.message);
-      throw error;
-    }
+    const board = await boardService.get(req.params.id);
+    res.json(Board.toResponse(board));
   })
 );
 
 router.route('/').post(
   asyncHandleError(async (req, res) => {
+    const { title, columns } = req.body;
     const board = await boardService.create(
       new Board({
-        title: req.body.title,
-        columns: req.body.columns
+        title,
+        columns
       })
     );
 
@@ -38,22 +34,34 @@ router.route('/').post(
 
 router.route('/:id').put(
   asyncHandleError(async (req, res) => {
+    const { title, columns } = req.body;
+    const { id } = req.params;
     const board = new Board({
-      title: req.body.title,
-      columns: req.body.columns
+      title,
+      columns,
+      _id: id
     });
-    board.id = req.params.id;
 
-    const updatedBoard = await boardService.update(board);
+    const updatedBoard = (await boardService.update(board)).ok;
 
-    res.json(Board.toResponse(updatedBoard));
+    if (updatedBoard === 0) {
+      const error = new RestError(404, `Cant upadate board with ${id}`);
+      throw error;
+    }
+
+    res.json();
   })
 );
 
 router.route('/:id').delete(
   asyncHandleError(async (req, res) => {
-    const boards = await boardService.del(req.params.id);
-    res.status(204).json(boards.map(Board.toResponse));
+    const { id } = req.params;
+    const boardDelCount = (await boardService.del(id)).deletedCount;
+    if (boardDelCount === 0) {
+      const error = new RestError(404, `Cant delete board with ${id}`);
+      throw error;
+    }
+    res.status(204).json();
   })
 );
 

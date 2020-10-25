@@ -16,22 +16,6 @@ app.use(express.json());
 
 app.use('/doc', swaggerUI.serve, swaggerUI.setup(swaggerDocument));
 
-// app.use('*', () => {
-//   throw new Error('Oops!');
-// });
-
-// app.use('*', () => {
-//   setTimeout(() => {
-//     throw new Error('Oops!');
-//   }, 1000);
-// });
-
-// app.use('*', () => {
-//   setTimeout(() => {
-//     Promise.reject(new Error('Oops!'));
-//   }, 1000);
-// });
-
 process.on('uncaughtException', err => {
   logger.error(`Uncaught exception ${err.name}: ${err.message}`);
   // eslint-disable-next-line no-process-exit

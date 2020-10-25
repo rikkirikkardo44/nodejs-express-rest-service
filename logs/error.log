@@ -1,0 +1,7 @@
+{"message":"status=404 message=Cant get task with boardId = 710bbeea-c259-4d43-9444-5019ea71214e and taskId = dbc341f7-4aa5-4137-aa57-2c7e9b45034c","level":"error","timestamp":"2020-10-25T10:31:03.640Z"}
+{"message":"status=404 message=Cant get board with 2ace357e-9396-4a36-8843-19b707f6fda4","level":"error","timestamp":"2020-10-25T10:31:03.666Z"}
+{"message":"status=404 message=Cant get task with boardId = 2a938d55-12e8-40bc-b0e6-afa4fe2eaebd and taskId = efc30e45-8eae-4462-b9a7-9be7fb15ebc9","level":"error","timestamp":"2020-10-25T10:31:04.159Z"}
+{"message":"status=404 message=Cant get task with boardId = 2a938d55-12e8-40bc-b0e6-afa4fe2eaebd and taskId = e03b7f0c-3e8e-4527-9036-3ddb14af9080","level":"error","timestamp":"2020-10-25T10:31:04.161Z"}
+{"message":"status=404 message=Cant get task with boardId = 2a938d55-12e8-40bc-b0e6-afa4fe2eaebd and taskId = 379aabe6-20b5-4ff0-a3fc-5c1aaf4da8cc","level":"error","timestamp":"2020-10-25T10:31:04.163Z"}
+{"message":"status=404 message=Cant get task with boardId = 2a938d55-12e8-40bc-b0e6-afa4fe2eaebd and taskId = d17f9612-ef46-4924-b967-da0a7d3c34c1","level":"error","timestamp":"2020-10-25T10:31:04.164Z"}
+{"message":"status=404 message=Cant get task with boardId = 2a938d55-12e8-40bc-b0e6-afa4fe2eaebd and taskId = 5649f0dd-368e-451d-932e-4f2a7a57014b","level":"error","timestamp":"2020-10-25T10:31:04.167Z"}

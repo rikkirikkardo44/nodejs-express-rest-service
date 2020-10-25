@@ -13,55 +13,70 @@ router.route('/:boardId/tasks').get(
 
 router.route('/:boardId/tasks/:taskId').get(
   asyncHandleError(async (req, res) => {
-    try {
-      const task = await taskService.get(req.params.boardId, req.params.taskId);
-      res.json(Task.toResponse(task));
-    } catch (e) {
-      const error = new RestError(404, e.message);
-      throw error;
-    }
+    const task = await taskService.get(req.params.boardId, req.params.taskId);
+    res.json(Task.toResponse(task));
   })
 );
 
 router.route('/:boardId/tasks').post(
   asyncHandleError(async (req, res) => {
+    const { title, order, description, userId, columnId } = req.body;
+    const { boardId } = req.params;
     const task = await taskService.create(
       new Task({
-        title: req.body.title,
-        order: req.body.order,
-        description: req.body.description,
-        userId: req.body.userId,
-        boardId: req.params.boardId,
-        columnId: req.body.columnId
+        title,
+        order,
+        description,
+        userId,
+        boardId,
+        columnId
       })
     );
-
+    console.log(task);
     res.json(Task.toResponse(task));
   })
 );
 
 router.route('/:boardId/tasks/:taskId').put(
   asyncHandleError(async (req, res) => {
+    const { title, order, description, userId, boardId, columnId } = req.body;
+    const { taskId } = req.params;
     const task = new Task({
-      title: req.body.title,
-      order: req.body.order,
-      description: req.body.description,
-      userId: req.body.userId,
-      boardId: req.body.boardId,
-      columnId: req.body.columnId
+      title,
+      order,
+      description,
+      userId,
+      boardId,
+      columnId,
+      _id: taskId
     });
-    task.id = req.params.taskId;
 
-    const updatedTask = await taskService.update(req.params.boardId, task);
+    const updateTask = (await taskService.update(req.params.boardId, task)).ok;
 
-    res.json(Task.toResponse(updatedTask));
+    if (updateTask === 0) {
+      const error = new RestError(
+        404,
+        `Cant upadate task with taskId = ${taskId} and boardId = ${req.params.boardId}`
+      );
+      throw error;
+    }
+
+    res.json();
   })
 );
 
 router.route('/:boardId/tasks/:taskId').delete(
   asyncHandleError(async (req, res) => {
-    const tasks = await taskService.del(req.params.boardId, req.params.taskId);
-    res.status(204).json(tasks.map(Task.toResponse));
+    const { boardId, taskId } = req.params;
+    const taskDelCount = (await taskService.del(boardId, taskId)).deletedCount;
+    if (taskDelCount === 0) {
+      const error = new RestError(
+        404,
+        `Cant delete task with taskId = ${taskId} and boardId = ${boardId}`
+      );
+      throw error;
+    }
+    res.status(204).json();
   })
 );
 

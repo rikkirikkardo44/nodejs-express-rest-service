@@ -1,4 +1,4 @@
-const usersRepo = require('./user.memory.repository');
+const usersRepo = require('./user.db.repository');
 const taskService = require('../tasks/task.service');
 
 const getAll = () => usersRepo.getAll();
@@ -11,8 +11,7 @@ const update = user => usersRepo.update(user);
 
 const del = id => {
   taskService.delUser(id);
-  const users = usersRepo.del(id);
-  return users;
+  return usersRepo.del(id);
 };
 
 module.exports = { getAll, get, create, update, del };
