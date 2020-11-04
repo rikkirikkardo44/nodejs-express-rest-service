@@ -15,6 +15,7 @@ const logFormat = format.combine(
 const logger = createLogger({
   level: 'silly',
   transports: [
+    new transports.Console(),
     new transports.File({
       filename: errorLogFile,
       level: 'error',
@@ -26,7 +27,10 @@ const logger = createLogger({
       format: logFormat
     })
   ],
-  format: logFormat,
+  format: format.combine(
+    format.colorize({ colors: { silly: 'yellow' }, message: true }),
+    format.printf(info => info.message)
+  ),
   exitOnError: false
 });
 

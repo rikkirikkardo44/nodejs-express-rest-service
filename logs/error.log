@@ -1,7 +1,528 @@
-{"message":"status=404 message=Cant get task with boardId = 710bbeea-c259-4d43-9444-5019ea71214e and taskId = dbc341f7-4aa5-4137-aa57-2c7e9b45034c","level":"error","timestamp":"2020-10-25T10:31:03.640Z"}
-{"message":"status=404 message=Cant get board with 2ace357e-9396-4a36-8843-19b707f6fda4","level":"error","timestamp":"2020-10-25T10:31:03.666Z"}
-{"message":"status=404 message=Cant get task with boardId = 2a938d55-12e8-40bc-b0e6-afa4fe2eaebd and taskId = efc30e45-8eae-4462-b9a7-9be7fb15ebc9","level":"error","timestamp":"2020-10-25T10:31:04.159Z"}
-{"message":"status=404 message=Cant get task with boardId = 2a938d55-12e8-40bc-b0e6-afa4fe2eaebd and taskId = e03b7f0c-3e8e-4527-9036-3ddb14af9080","level":"error","timestamp":"2020-10-25T10:31:04.161Z"}
-{"message":"status=404 message=Cant get task with boardId = 2a938d55-12e8-40bc-b0e6-afa4fe2eaebd and taskId = 379aabe6-20b5-4ff0-a3fc-5c1aaf4da8cc","level":"error","timestamp":"2020-10-25T10:31:04.163Z"}
-{"message":"status=404 message=Cant get task with boardId = 2a938d55-12e8-40bc-b0e6-afa4fe2eaebd and taskId = d17f9612-ef46-4924-b967-da0a7d3c34c1","level":"error","timestamp":"2020-10-25T10:31:04.164Z"}
-{"message":"status=404 message=Cant get task with boardId = 2a938d55-12e8-40bc-b0e6-afa4fe2eaebd and taskId = 5649f0dd-368e-451d-932e-4f2a7a57014b","level":"error","timestamp":"2020-10-25T10:31:04.167Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T15:42:17.540Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T15:43:18.803Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T15:44:35.698Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T15:46:07.860Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:04:42.114Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:04:42.123Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:04:42.125Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:04:42.129Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:04:42.133Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:04:42.139Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:04:42.141Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:04:42.144Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:04:42.148Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:04:42.150Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:04:42.153Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:04:42.155Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:04:42.158Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:04:42.161Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:04:42.164Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:04:42.167Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:04:42.169Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:04:42.172Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:04:42.174Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:04:42.178Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:04:42.181Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:04:42.184Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:04:42.186Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:04:42.188Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:04:42.190Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:04:42.196Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.142Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.145Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.159Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.162Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.168Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.172Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.176Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.180Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.184Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.189Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.195Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.201Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.212Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.218Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.224Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.661Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.683Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.687Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.692Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.699Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.704Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.708Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.713Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.717Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.721Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.750Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.761Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.765Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.772Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.777Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.781Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.786Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.791Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.795Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.798Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.844Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.856Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.864Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.868Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.872Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.875Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.879Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.882Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:06:27.891Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.451Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.502Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.508Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.511Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.516Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.523Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.524Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.527Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.529Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.533Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.535Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.538Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.542Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.546Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.548Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.596Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.607Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.614Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.619Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.624Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.627Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.631Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.634Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.644Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.731Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.743Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.747Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.753Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.760Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.766Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.770Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.774Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.777Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.781Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.815Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.825Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.830Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.837Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.842Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.846Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.850Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.853Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.858Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:11:55.862Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.088Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.136Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.140Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.143Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.154Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.156Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.159Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.163Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.168Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.172Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.175Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.178Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.182Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.185Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.189Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.236Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.247Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.254Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.263Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.270Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.276Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.280Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.285Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.291Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.297Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.332Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.345Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.354Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.360Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.365Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.372Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.378Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.382Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.394Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.418Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.431Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.437Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.443Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.451Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.457Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.464Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.469Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.474Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:34:27.478Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.269Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.287Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.327Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.335Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.339Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.351Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.356Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.361Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.364Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.369Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.374Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.377Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.379Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.383Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.390Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.426Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.439Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.445Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.455Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.462Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.470Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.476Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.485Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.493Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.500Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.512Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.527Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.535Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.544Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.553Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.564Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.571Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.577Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.583Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.590Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.626Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.641Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.651Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.659Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.666Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.672Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.678Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.684Z"}
+{"message":"\u001b[31mstatus=500 message=jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T16:39:05.696Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T16:43:05.649Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.009Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.032Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.037Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.042Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.065Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.071Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.074Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.094Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.102Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.106Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.110Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.112Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.117Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.120Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.123Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.198Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.215Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.223Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.234Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.239Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.245Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.249Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.254Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.259Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.263Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.284Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.297Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.301Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.308Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.316Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.325Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.330Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.335Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.340Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.344Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.370Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.381Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.390Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.395Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.403Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.407Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.412Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.417Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:14:21.427Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.371Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.381Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.391Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.393Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.396Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.399Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.401Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.405Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.411Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.414Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.416Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.419Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.421Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.425Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.428Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.465Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.479Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.484Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.493Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.499Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.504Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.508Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.514Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.519Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.524Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.586Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.608Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.618Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.626Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.633Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.638Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.645Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.650Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.662Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.678Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.691Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.697Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.703Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.711Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.716Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.723Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.728Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.733Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:19:41.738Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.753Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.769Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.776Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.783Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.789Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.802Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.810Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.817Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.826Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.829Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.832Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.835Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.839Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.843Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.846Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.913Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.925Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.930Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.936Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.937Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.940Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.951Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.954Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.958Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.962Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.966Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.968Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.972Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.975Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.978Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.983Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.986Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.990Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:11.997Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:12.000Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:12.003Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:12.006Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:12.009Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:12.012Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:12.015Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:12.017Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:12.021Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:12.026Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:23:12.029Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:15.716Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:15.763Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:15.765Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:15.767Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:15.775Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:15.778Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:15.780Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:15.783Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:15.788Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:15.792Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:15.794Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:15.796Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:15.799Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:15.802Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:15.805Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:15.859Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:15.870Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:15.875Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:15.883Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:15.890Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:15.896Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:15.901Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:15.905Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:15.914Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:15.918Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:15.953Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:15.981Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:15.990Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:15.996Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:16.001Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:16.006Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:16.011Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:16.016Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:16.027Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:16.044Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:16.056Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:16.063Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:16.070Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:16.076Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:16.085Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:16.089Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:16.094Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:16.099Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:33:16.103Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T17:34:41.502Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T17:36:18.177Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:42.763Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:42.786Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:42.813Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:42.829Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:42.835Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:42.847Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:42.849Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:42.855Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:42.861Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:42.865Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:43.009Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:43.034Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:43.044Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:43.052Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:43.061Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:43.067Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:43.073Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:43.079Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:43.084Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:43.093Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:43.123Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:43.134Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:43.140Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:43.146Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:43.155Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:43.161Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:43.167Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:43.172Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:43.177Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:43.184Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:43.204Z"}
+{"message":"\u001b[31mstatus=404 message=Cant get user with 123\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:43.292Z"}
+{"message":"\u001b[31mstatus=404 message=Cant delete user with 12345\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:43.767Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:43:45.488Z"}
+{"message":"\u001b[31mstatus=403 message=Wrong login/password combination\u001b[39m","level":"error","timestamp":"2020-11-04T17:44:28.081Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:34.954Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.004Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.009Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.014Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.019Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.022Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.026Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.029Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.031Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.034Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.036Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.040Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.044Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.048Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.052Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.180Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.186Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.195Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.205Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.211Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.215Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.222Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.228Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.236Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.284Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.288Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.294Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.303Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.310Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.316Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.321Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.327Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.333Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.382Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.393Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.398Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.403Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.407Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.412Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.416Z"}
+{"message":"\u001b[31mstatus=401 message=JsonWebTokenError:jwt malformed\u001b[39m","level":"error","timestamp":"2020-11-04T17:47:35.427Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:50:02.000Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:52:42.372Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:52:42.385Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:52:42.393Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:52:42.397Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:52:42.399Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:52:42.405Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:52:42.409Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:52:42.412Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:52:42.414Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:52:42.417Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:52:42.420Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:52:42.422Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:52:42.426Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:52:42.431Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:52:42.433Z"}
+{"message":"\u001b[31mstatus=404 message=Cant get task with boardId = 0b1c86b0-c089-4dc1-9183-2e33d00b25d5 and taskId = a3631c70-b866-4ff2-a716-cbb8c09f5ece\u001b[39m","level":"error","timestamp":"2020-11-04T17:52:44.157Z"}
+{"message":"\u001b[31mstatus=404 message=Cant get board with b73579a0-edac-4b57-ae48-f9f47b7d1dd2\u001b[39m","level":"error","timestamp":"2020-11-04T17:52:44.545Z"}
+{"message":"\u001b[31mstatus=404 message=Cant get task with boardId = fc694757-799c-4d36-a626-b5b95a31966e and taskId = 63d03523-4f3b-4fcb-93fb-1534201d59ef\u001b[39m","level":"error","timestamp":"2020-11-04T17:52:45.186Z"}
+{"message":"\u001b[31mstatus=404 message=Cant get task with boardId = fc694757-799c-4d36-a626-b5b95a31966e and taskId = 5e26a410-84fe-48f8-8337-9339a4bbdfdf\u001b[39m","level":"error","timestamp":"2020-11-04T17:52:45.212Z"}
+{"message":"\u001b[31mstatus=404 message=Cant get task with boardId = fc694757-799c-4d36-a626-b5b95a31966e and taskId = 4bf70e83-685d-4d2c-b339-8b741feb049b\u001b[39m","level":"error","timestamp":"2020-11-04T17:52:45.214Z"}
+{"message":"\u001b[31mstatus=404 message=Cant get task with boardId = fc694757-799c-4d36-a626-b5b95a31966e and taskId = 8bc6935e-7158-40ba-8508-27b8244150ac\u001b[39m","level":"error","timestamp":"2020-11-04T17:52:45.220Z"}
+{"message":"\u001b[31mstatus=404 message=Cant get task with boardId = fc694757-799c-4d36-a626-b5b95a31966e and taskId = c5d75eca-7d80-4b3e-9dc6-e4bd8a1e1796\u001b[39m","level":"error","timestamp":"2020-11-04T17:52:45.223Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:54:58.472Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:54:58.487Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:54:58.494Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:54:58.518Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:54:58.531Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:54:58.534Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:54:58.542Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:54:58.545Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:54:58.548Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:54:58.549Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:54:58.552Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:54:58.554Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:54:58.556Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:54:58.559Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T17:54:58.562Z"}
+{"message":"\u001b[31mstatus=404 message=Cant get board with 154ebb6a-17fc-4e03-8a8c-e5012b4fdaa8\u001b[39m","level":"error","timestamp":"2020-11-04T17:55:00.264Z"}
+{"message":"\u001b[31mstatus=404 message=Cant get task with boardId = 90a73d7a-b224-4c3b-8bd6-7c3be9ced3e3 and taskId = 12cdf2ca-0913-4c78-8b96-c113b610f97d\u001b[39m","level":"error","timestamp":"2020-11-04T17:55:00.348Z"}
+{"message":"\u001b[31mstatus=404 message=Cant get task with boardId = 2bc8cbc0-2fb9-47a0-b9c5-3406a279a25a and taskId = 16373f15-c062-4162-9ee9-5cce4c3f6761\u001b[39m","level":"error","timestamp":"2020-11-04T17:55:00.781Z"}
+{"message":"\u001b[31mstatus=404 message=Cant get task with boardId = 2bc8cbc0-2fb9-47a0-b9c5-3406a279a25a and taskId = d3b60dc6-e1ce-4011-ba56-e85e5fe2b475\u001b[39m","level":"error","timestamp":"2020-11-04T17:55:00.788Z"}
+{"message":"\u001b[31mstatus=404 message=Cant get task with boardId = 2bc8cbc0-2fb9-47a0-b9c5-3406a279a25a and taskId = cec4e9e1-ceea-460c-9d2f-03c6ee25fb3e\u001b[39m","level":"error","timestamp":"2020-11-04T17:55:00.797Z"}
+{"message":"\u001b[31mstatus=404 message=Cant get task with boardId = 2bc8cbc0-2fb9-47a0-b9c5-3406a279a25a and taskId = c8479107-9148-4cba-a3ab-726633275055\u001b[39m","level":"error","timestamp":"2020-11-04T17:55:00.801Z"}
+{"message":"\u001b[31mstatus=404 message=Cant get task with boardId = 2bc8cbc0-2fb9-47a0-b9c5-3406a279a25a and taskId = fab640f9-5b7d-435e-8828-0292bfa6d0c8\u001b[39m","level":"error","timestamp":"2020-11-04T17:55:00.803Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T18:00:40.184Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T18:00:40.191Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T18:00:40.198Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T18:00:40.201Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T18:00:40.208Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T18:00:40.212Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T18:00:40.216Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T18:00:40.219Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T18:00:40.222Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T18:00:40.224Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T18:00:40.227Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T18:00:40.229Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T18:00:40.231Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T18:00:40.233Z"}
+{"message":"\u001b[31mstatus=401 message=Unauthorized user\u001b[39m","level":"error","timestamp":"2020-11-04T18:00:40.235Z"}
+{"message":"\u001b[31mstatus=404 message=Cant get board with 242ec6cd-50d4-4510-8514-45aed37c7358\u001b[39m","level":"error","timestamp":"2020-11-04T18:00:42.234Z"}
+{"message":"\u001b[31mstatus=404 message=Cant get task with boardId = 12b2fa6d-5d00-47f8-b30f-42f29aaa8c7e and taskId = ee6ac1f8-0b39-4d95-b928-61e54aa34a45\u001b[39m","level":"error","timestamp":"2020-11-04T18:00:42.574Z"}
+{"message":"\u001b[31mstatus=404 message=Cant get task with boardId = 392d7ee3-82ff-4427-a736-8272802015f2 and taskId = 6141654e-7225-49b8-9b45-6fd1203d3e88\u001b[39m","level":"error","timestamp":"2020-11-04T18:00:42.847Z"}
+{"message":"\u001b[31mstatus=404 message=Cant get task with boardId = 392d7ee3-82ff-4427-a736-8272802015f2 and taskId = 3e7bd0df-12e2-4e39-be0e-ab7ff8899fc9\u001b[39m","level":"error","timestamp":"2020-11-04T18:00:42.850Z"}
+{"message":"\u001b[31mstatus=404 message=Cant get task with boardId = 392d7ee3-82ff-4427-a736-8272802015f2 and taskId = 430f3c4a-3e9f-4e3f-ae7b-b886ee611b9e\u001b[39m","level":"error","timestamp":"2020-11-04T18:00:42.858Z"}
+{"message":"\u001b[31mstatus=404 message=Cant get task with boardId = 392d7ee3-82ff-4427-a736-8272802015f2 and taskId = 7eb9f85f-8d14-4050-a5b5-d8476b8016b7\u001b[39m","level":"error","timestamp":"2020-11-04T18:00:42.863Z"}
+{"message":"\u001b[31mstatus=404 message=Cant get task with boardId = 392d7ee3-82ff-4427-a736-8272802015f2 and taskId = 8a395f34-3c25-4533-9d51-e67710d6ba90\u001b[39m","level":"error","timestamp":"2020-11-04T18:00:42.868Z"}

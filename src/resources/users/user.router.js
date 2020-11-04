@@ -21,32 +21,23 @@ router.route('/:id').get(
 router.route('/').post(
   asyncHandleError(async (req, res) => {
     const { name, login, password } = req.body;
-    const user = await usersService.create(
-      new User({
-        login,
-        password,
-        name
-      })
-    );
+    const user = await usersService.create({
+      login,
+      password,
+      name
+    });
     res.json(User.toResponse(user));
   })
 );
 
 router.route('/:id').put(
   asyncHandleError(async (req, res) => {
-    const { name, login, password } = req.body;
+    const { body } = req;
     const { id } = req.params;
-    const user = new User({
-      name,
-      login,
-      password,
-      _id: id
-    });
 
-    const updatedUser = (await usersService.update(user)).ok;
+    const updatedUser = (await usersService.update(body, id)).ok;
     if (updatedUser === 0) {
-      const error = new RestError(404, `Cant upadate user with ${id}`);
-      throw error;
+      throw new RestError(404, `Cant update user with ${id}`);
     }
     res.json();
   })
@@ -57,8 +48,7 @@ router.route('/:id').delete(
     const { id } = req.params;
     const userDelCount = (await usersService.del(id)).deletedCount;
     if (userDelCount === 0) {
-      const error = new RestError(404, `Cant delete user with ${id}`);
-      throw error;
+      throw new RestError(404, `Cant delete user with ${id}`);
     }
     res.status(204).json();
   })
