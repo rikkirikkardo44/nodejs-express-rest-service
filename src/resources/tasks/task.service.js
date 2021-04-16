@@ -1,17 +1,13 @@
 const tasksRepo = require('./task.db.repository');
 
-const getAll = boardId => tasksRepo.getAll(boardId);
+const getAll = userId => tasksRepo.getAll(userId);
 
-const get = (boardId, taskId) => tasksRepo.get(boardId, taskId);
+const get = (userId, taskId) => tasksRepo.get(userId, taskId);
 
 const create = task => tasksRepo.create(task);
 
-const update = (boardId, task) => tasksRepo.update(boardId, task);
+const update = (userId, task) => tasksRepo.update(userId, task);
 
-const del = (boardId, taskId) => tasksRepo.del(boardId, taskId);
+const del = (userId, taskId) => tasksRepo.del(userId, taskId);
 
-const delBoard = boardId => tasksRepo.delBoard(boardId);
-
-const delUser = userId => tasksRepo.delUser(userId);
-
-module.exports = { getAll, get, create, update, del, delBoard, delUser };
+module.exports = { getAll, get, create, update, del };

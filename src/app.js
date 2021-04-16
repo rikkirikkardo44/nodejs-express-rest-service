@@ -49,7 +49,7 @@ app.use(morgan('dev'));
 app.use('/login', loginRouter);
 app.use('/users', checkToken, userRouter);
 app.use('/boards', checkToken, boardRouter);
-app.use('/boards', checkToken, taskRouter);
+app.use('/users', checkToken, taskRouter);
 
 app.use(handleError);
 

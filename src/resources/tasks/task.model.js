@@ -10,13 +10,9 @@ const taskSchema = new mongoose.Schema(
       type: String,
       default: null
     },
-    boardId: {
-      type: String,
-      default: null
-    },
-    columnId: {
-      type: String,
-      default: null
+    params: {
+      isPrior: Boolean,
+      isDone: Boolean
     },
     _id: {
       type: String,
@@ -27,8 +23,8 @@ const taskSchema = new mongoose.Schema(
 );
 
 taskSchema.statics.toResponse = task => {
-  const { _id, title, order, description, userId, boardId, columnId } = task;
-  return { id: _id, title, order, description, userId, boardId, columnId };
+  const { _id, ...rest } = task;
+  return { id: _id, ...rest };
 };
 
 const Task = mongoose.model('Task', taskSchema);

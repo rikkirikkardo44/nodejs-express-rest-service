@@ -1,15 +1,15 @@
 const Task = require('./task.model');
 const RestError = require('../../common/error/RestError');
 
-const getAll = async boardId => Task.find({ boardId });
+const getAll = async userId => Task.find({ userId });
 
-const get = async (boardId, taskId) => {
-  const task = await Task.findOne({ boardId, _id: taskId });
+const get = async (userId, taskId) => {
+  const task = await Task.findOne({ userId, _id: taskId });
 
   if (task === null) {
     const error = new RestError(
       404,
-      `Cant get task with boardId = ${boardId} and taskId = ${taskId}`
+      `Cant get task with userId = ${userId} and taskId = ${taskId}`
     );
     throw error;
   }
@@ -19,13 +19,9 @@ const get = async (boardId, taskId) => {
 
 const create = async task => Task.create(task);
 
-const update = async (boardId, task) =>
-  Task.updateOne({ boardId, _id: task._id }, task);
+const update = async (userId, task) =>
+  Task.updateOne({ userId, _id: task._id }, task);
 
-const del = async (boardId, taskId) => Task.deleteOne({ boardId, _id: taskId });
+const del = async (userId, taskId) => Task.deleteOne({ userId, _id: taskId });
 
-const delBoard = async boardId => Task.deleteMany({ boardId });
-
-const delUser = async userId => Task.updateMany({ userId }, { userId: null });
-
-module.exports = { getAll, get, create, update, del, delBoard, delUser };
+module.exports = { getAll, get, create, update, del };

@@ -1313,3 +1313,6 @@
 {"message":"\u001b[32mmethod=DELETE url=/boards/05e2eb77-76d4-490b-9aac-291af3afdead/tasks/46e285c1-004d-421c-9a0c-d9fcfc968e9c params={} body={}}\u001b[39m","level":"info","timestamp":"2020-11-04T18:00:43.281Z"}
 {"message":"\u001b[32mmethod=DELETE url=/boards/05e2eb77-76d4-490b-9aac-291af3afdead/tasks/879da7fb-d4ff-4163-b172-15a0af8ad819 params={} body={}}\u001b[39m","level":"info","timestamp":"2020-11-04T18:00:43.283Z"}
 {"message":"\u001b[32mmethod=DELETE url=/boards/05e2eb77-76d4-490b-9aac-291af3afdead params={} body={}}\u001b[39m","level":"info","timestamp":"2020-11-04T18:00:43.412Z"}
+{"message":"\u001b[32mmethod=GET url=/favicon.ico params={} body={}}\u001b[39m","level":"info","timestamp":"2021-04-16T06:26:37.609Z"}
+{"message":"\u001b[32mmethod=GET url=/swagger params={} body={}}\u001b[39m","level":"info","timestamp":"2021-04-16T06:27:07.098Z"}
+{"message":"\u001b[32mmethod=GET url=/api-docs params={} body={}}\u001b[39m","level":"info","timestamp":"2021-04-16T06:30:48.001Z"}
